@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight:600;
+    padding: 60px;
+    margin-top: 30px;
+    color:white;
+}
+body {
+    background-image: url(bg.jpg);
+}
+.base {
+    display: flex;
+    justify-content: center;
+}
+.have {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    padding: 10px;
+}
+.user {
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 5px;
+    background-color:rgba(255, 255, 255, 0.2);
+}
+.log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: mistyrose;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.check {
+    accent-color: mistyrose;
+}
+.remember {
+    margin-left: 7px;
+    font-size: 15px;
+    color: mistyrose;
+}
+.forgot {
+    margin-left: 7%;
+    font-size: 15px;
+    color: white;
+}
+::placeholder {
+    color: white;
+}
+.op {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bot {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 25px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.or {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
